@@ -1,4 +1,5 @@
 using Metalhead: VGG19, preprocess, load, labels
+# using the packages that we have added
 using Flux: onecold
 
 model = VGG19()
